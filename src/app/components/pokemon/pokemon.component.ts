@@ -21,14 +21,21 @@ export class PokemonComponent implements OnInit {
 
   findPokemon(event,value){
     event.preventDefault();
-    this.loading = true;
-    const pokemon = value.toLowerCase();
+    if(value.trim()!==''){
+      this.loading = true;
+      const pokemon = value.toLowerCase();
 
-    this.pokemon_service.getPokemon(pokemon).subscribe(
-      (pokemon:Pokemon)=> this.pokemon = pokemon,
-      (err) => this.toast.error('Pokemon not found.',''),
-      () =>  this.loading = false
-    )
+      this.pokemon_service.getPokemon(pokemon).subscribe(
+        (pokemon:Pokemon)=> {
+          console.log(pokemon)
+          this.pokemon = pokemon
+        },
+        (err) => this.toast.error('Pokemon not found.',''),
+        () =>  this.loading = false
+      )
+    }else{
+      this.toast.error('Tell a pokemon.','')
+    }
   }
 
 }
