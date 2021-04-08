@@ -3,14 +3,14 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
 ## Install dependences
-Run the following for install dependences necessary.
+Run the following command for install dependences necessary.
 
 ```shell
     npm install
 ```
 
 ## Run the application
-Run the following for start application 
+Run the following command for start application 
 
 ```shell
     ng serve --open
