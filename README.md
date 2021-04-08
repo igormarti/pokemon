@@ -19,4 +19,4 @@ Run the following for start application
 ![plot](./screen_home.png)
 
 ## Screen of the list of favorite Pokémon
-![plot](./screen_favorite_pokemons.png) --screen_home.png
+![plot](./screen_favorite_pokemons.png)
