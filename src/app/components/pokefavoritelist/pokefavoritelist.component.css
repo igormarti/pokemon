@@ -1,0 +1,29 @@
+.img-custom{
+    margin: 5px 5px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+h2{
+    font-weight: 700;
+    color: #4e617e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong{
+    font-weight: 600;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notfound{
+    color: #888;
+    font-weight: 700;
+    border: 1px solid #eff;
+    border-radius: 3px;
+    padding: 10px 55px;
+    display: flex; 
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,5 @@
+svg path:hover{
+    fill: red;
+}
+
+.no-hover { pointer-events: none; }

@@ -1,0 +1,46 @@
+.icon-wrapper{
+    position:relative;
+    float:left;
+}
+
+*.icon-blue {color: #0088cc}
+*.icon-grey {color: grey}
+i {   
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+}
+.badge{
+    background: rgba(0,0,255,0.6);
+    width: auto;
+    height: auto;
+    margin: 0;
+    border-radius: 50%;
+    position:absolute;
+    top:-13px;
+    right:-8px;
+    padding:5px;
+    color:#fff;
+}
+
+html{
+    background-color: #f3f3f3;
+}
+
+.notfound{
+    color: #888;
+    font-weight: 700;
+    border: 1px solid #eff;
+    border-radius: 3px;
+    padding: 10px 55px;
+    display: flex; 
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    color: #4e617e;
+    text-decoration: none;
+}
