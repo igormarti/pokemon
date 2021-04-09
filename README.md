@@ -16,7 +16,7 @@ Run the following command for start application
     ng serve --open
 ```
 ## Screen Home
-<img src="./screen_home.png" width="300" height="300" >
+<img src="./screen_home.png" width="450" height="450" >
 
 ## Screen of the list of favorite pokemon
-<img src="./screen_favorite_pokemons.png" width="300" height="300" >
+<img src="./screen_favorite_pokemons.png" width="450" height="450" >
