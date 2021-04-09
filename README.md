@@ -16,7 +16,8 @@ Run the following command for start application
     ng serve --open
 ```
 ## Screen Home
-![plot](./screen_home.png)
+
+![plot](./screen_home.png){width=250,height=250}
 
 ## Screen of the list of favorite pokemon
-![plot](./screen_favorite_pokemons.png)
+![plot](./screen_favorite_pokemons.png){width=250,height=250}
