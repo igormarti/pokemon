@@ -17,7 +17,7 @@ Run the following command for start application
 ```
 ## Screen Home
 
-![plot](./screen_home.png){width=250,height=250}
+![plot](./screen_home.png)
 
 ## Screen of the list of favorite pokemon
-![plot](./screen_favorite_pokemons.png){width=250,height=250}
+![plot](./screen_favorite_pokemons.png)
